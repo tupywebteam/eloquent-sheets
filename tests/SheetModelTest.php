@@ -6,6 +6,7 @@ use Tests\Models\BrokenModel;
 use Tests\Models\DefineHeadersModel;
 use Tests\Models\InferredIdModel;
 use Tests\Models\TestModel;
+use function MongoDB\BSON\toJSON;
 
 class SheetModelTest extends TestCase
 {
